@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+html,
+body {
+    overflow-x: hidden;
+    font-family: "Poppins", sans-serif;
+    font-size: 18px;
+}
+.navbar {
+    height: 100px;
+    background-color: #ffffff;
+}
+
+.container-fluid {
+    margin-left: 100px;
+}
+
+.navbar-brand {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+}
+
+.special-brand {
+    color: #113564;
+}
+
+.navbar-collapse {
+    margin-left: 100px;
+}
+
+.nav-link {
+    margin-right: 50px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #8e8c8c;
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link.show {
+    color: #113564;
+}
+
+
+.btn-tambah {   
+    background: #113564;
+    color: #ffffff;
+}
+
+.btn-primary {
+    background:#113564;
+    color: #ffffff;
+}
+
+.btn-danger {
+    background: #a2181a;
+    color: #ffffff;
+}
+
+.hero-banner {
+    padding-left: 100px;
+    background-color: #ffffff;
+}
+
+.dash {
+    width: 53px;
+    height: 0;
+    border: 1px solid #a2181a;
+    margin: 3px;
+    display: inline-block;
+}
+
+.top-distance-dash-hero {
+    margin-top: 220px;
+}
+
+.greeting {
+    display: inline-block;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    color: #25282b;
+}
+
+
+.main-title {   
+    font-style: normal;
+    font-weight: 500;
+    font-size: 68px;
+    line-height: 78px;
+    letter-spacing: 0.02em;
+    color: #0f172a;
+}
+
+.short-desc {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+
+    color: #757b82;
+}
+
+
+.figure-profile {
+    width: 600px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.figure-profile-about {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.distance-dash-profile {
+    margin-top: 70px;
+}
+
+.custom-margin-left {
+    margin-left: -70px;
+}
+
+.title-profile {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 56px;
+    letter-spacing: 0.02em;
+
+    color: #0f172a;
+}
+
+.desc-profile {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #757b82;
+    padding-right: 50px;
+}
+
+
+.custom-width-card {
+    width: 17rem;
+    margin-right: 70px;
+    margin-bottom: 40px;
+}
+
+.shadow-fill {
+    box-shadow: 10px 10px 5px lightblue;
+}
+
+.width-card {
+    max-width: 1400px;
+}
+
+.margin-card {
+    margin-bottom: 70px;
+    margin-left: 80px;
+}
+
+.table {
+    font-size: 20px;
+}
+
+.icon-white {
+    color: #ffffff;
+}
+
+.fit-screen {
+    min-height: 86vh;
+}
+
+.head-title,
+hr {
+    margin-left: 80px;
+}
