@@ -36,7 +36,7 @@
                             </div>
                             <div class="row mt-3">
                                 <div class="col-6">
-                                    <label for="desc-item" class="form-label">Deskripsi Barang</label>
+                                    <label for="desc-item" class="form-label">Deskripsi Barang:</label>
                                     <textarea class="form-control @error('desc_item') is-invalid @enderror" id="desc-item" name="desc_item" placeholder="Masukkan Deskripsi Barang" style="height: 150px" required>{{ $item->desc }}</textarea>
                                     @error('desc_item')
                                         <div id="desc-item" class="invalid-feedback">
